@@ -2,6 +2,8 @@
 
 This is a Pixinsight script for detecting the stars in an image and using the detected stars to create a synthetic starfield using the parameters of the detected stars.
 
+Star detection performance is greatly enhanced by denoising the image prior to detection using the script. There is also an option on the interface to apply an MMT-based denoising operation prior to detection.
+
 The algorithm steps are:
 
 1. Use the Pixinsight StarDetector to find all of the stars in the image.
