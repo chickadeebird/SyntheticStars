@@ -10,7 +10,7 @@
       </p>
    </description>
    <platform os="all" arch="noarch" version="1.8.9:2.0.0">
-      <package fileName="SyntheticStarsv1.0.01eta.zip" sha1="74b4dbdce1863d78addbfa780686442adcb80dee" type="script" releaseDate="20250123">
+      <package fileName="SyntheticStarsv1.0.0beta.zip" sha1="74b4dbdce1863d78addbfa780686442adcb80dee" type="script" releaseDate="20250123">
          <title>
             Script for SyntheticStars - Synthetic Stars Script.
          </title>
