@@ -1,12 +1,12 @@
 # SyntheticStars
 
-This is a Pixinsight script for detecting the stars in an image and then creating a synthetic starfield using the parameters of the detected stars.
+This is a Pixinsight script for detecting the stars in an image and using the detected stars to create a synthetic starfield using the parameters of the detected stars.
 
 The algorithm steps are:
 
-1. Use the Pixinsight StarDetector to find all of the stars in this cropped middle portion.
-2. Use DynamicPSF to characterize all of the stars that have been detected. This will find the rotated x and y axes of all of the stars as well as their rotation angles.
-3. Create a new synthetic star based on the Moffat function that has the same star location but the x and y axes are now artifically made to both be the smaller of the two, thus creating rounded stars.
+1. Use the Pixinsight StarDetector to find all of the stars in the image.
+2. Use DynamicPSF to characterize all of the stars that have been detected. This will find the rotation angles of the stars as well as the width of the major and minor axes.
+3. Create a new synthetic star based on the Moffat function that has the same star location but the major and minor axes are now artifically made to both be the smaller of the two, thus creating rounded stars.
 
 This will create a separate image of stars that can be used to replace any stars that have been removed using other tools such as StarNet2. This will likely remove any small galaxies not detected by the Pixinsight star detector.
 
@@ -22,7 +22,7 @@ This script relies on the StarNet2 process to replace the original stars with th
 
 ## Uses
 
-The script should work on linear and nonlinear images as well as mono and multi-channel/RGB images.
+The script is used to simulate a starfield based on an existing image. It should work on linear and nonlinear images as well as mono and multi-channel/RGB images.
 
 ## Images
 
