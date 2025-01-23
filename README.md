@@ -28,7 +28,9 @@ The script is used to simulate a starfield based on an existing image. It should
 
 This is a sample pair of an original image (left), and an image where the stars are replaced with synthetic stars (right).
 
-<img src="./figs/Synthetic stars replaced.png" text='Synthetic stars script - left original stars, right replaced with synthetic stars' align=left />
+<img src="./figs/SyntheticStars replaced.png" text='Synthetic stars script - left original stars, right replaced with synthetic stars' align=left />
+
+<img src="./figs/SyntheticStars kept.png" text='Synthetic stars script - left original stars, right synthetic starfield created' align=left />
 
 ## Script
 
