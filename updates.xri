@@ -2,7 +2,7 @@
 <xri version="1.0">
    <description>
       <p>
-		First release of Synthetic Stars Script from chickadeebird.
+		First release of Remove Streaks from chickadeebird.
       </p>
       <p>
       The scripts have been written by Chick Dee (alias chickadeebird).
@@ -10,13 +10,13 @@
       </p>
    </description>
    <platform os="all" arch="noarch" version="1.8.9:2.0.0">
-      <package fileName="SyntheticStarsv1.0.0beta.zip" sha1="74b4dbdce1863d78addbfa780686442adcb80dee" type="script" releaseDate="20250123">
+      <package fileName="RemoveStreaksv1.0.1beta.zip" sha1="8373005e357e0a199563ff2286d445e9f2176abe" type="script" releaseDate="20250806">
          <title>
-            Script for SyntheticStars - Synthetic Stars Script.
+            Script for Remove Streaks Script.
          </title>
          <description>
             <p>
-               Script for creating synthetic stars based on the starfield of an image. <br/>
+               Script for removal of streak artifacts from images, typically from off-axis stars. <br/>
             </p>
          </description>
       </package>
